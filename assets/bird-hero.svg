@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img">
+<title>飞鸟云品牌纸雕插画</title>
+<desc>折纸飞鸟以白色和蓝色折面展开双翼。 原创可编辑矢量图，无外部素材。</desc>
+<defs>
+  <linearGradient id="bird-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#ffffff"/><stop offset=".6" stop-color="#f7f9f8"/><stop offset="1" stop-color="#e5ebe7"/></linearGradient>
+  <linearGradient id="bird-accent" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#91b2d1"/><stop offset="1" stop-color="#2768a4"/></linearGradient>
+  <linearGradient id="bird-accentSoft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e5edf4"/><stop offset=".5" stop-color="#c9d9e8"/><stop offset="1" stop-color="#8fb0d0"/></linearGradient>
+  <linearGradient id="bird-leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#abb79a"/><stop offset="1" stop-color="#5f785b"/></linearGradient>
+  <linearGradient id="bird-ink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#536058"/><stop offset=".6" stop-color="#303c35"/><stop offset="1" stop-color="#19231d"/></linearGradient>
+  <filter id="bird-shadow" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#35443c" flood-opacity=".12"/></filter>
+  <filter id="bird-smallshadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#35443c" flood-opacity=".1"/></filter>
+  <filter id="bird-blur" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="800" height="600" fill="#fff"/>
+<ellipse cx="405" cy="516" rx="211" ry="17" fill="#273933" opacity=".075" filter="url(#bird-blur)"/>
+<path d="M118 361c0-109 75-217 226-229 135-11 265 40 295 129" fill="none" stroke="#d4e1ec" stroke-width="2.5" stroke-dasharray="4 10" stroke-linecap="round"/>
+<g filter="url(#bird-shadow)">
+  <path d="m173 293 171-27L611 90 474 340l-96 17-82 121 4-139Z" fill="url(#bird-paper)" stroke="#dce4e9" stroke-width="1.5"/>
+  <path d="m344 266 267-176-137 250-96 17Z" fill="url(#bird-accentSoft)"/>
+  <path d="m344 266 152 8-118 83Z" fill="url(#bird-accent)"/>
+  <path d="m611 90-115 184-152-8Z" fill="#edf4f8"/>
+  <path d="m296 478 82-121-78-18Z" fill="#c9d7e0"/>
+  <path d="m173 293 127 46 44-73Z" fill="#fdfefe"/>
+  <path d="m300 339 78 18-34-91Z" fill="#e0e8ee"/>
+</g>
+<g transform="translate(593 414) rotate(18)" filter="url(#bird-smallshadow)">
+  <path d="m-59 12 105-44-37 85-13-33Z" fill="url(#bird-paper)" stroke="#dce4e9"/>
+  <path d="m46-32-50 52 13 33Z" fill="url(#bird-accentSoft)"/>
+</g>
+<path d="M194 156c26-26 54-31 75-21-10 31-43 45-75 21Z" fill="url(#bird-accentSoft)"/>
+
+</svg>
